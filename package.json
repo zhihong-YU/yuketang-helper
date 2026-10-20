@@ -1,0 +1,21 @@
+{
+  "name": "yuketang-helper",
+  "version": "1.25.2",
+  "private": true,
+  "description": "雨课堂助手：统一答题中心、多 AI 配置与课件工具",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhihong-YU/yuketang-helper.git"
+  },
+  "scripts": {
+    "check": "node --check yuketang-helper.user.js",
+    "test": "node --test ykt-helper.test.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0"
+  }
+}
